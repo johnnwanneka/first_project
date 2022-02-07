@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-size: 17px;
+    font-family: arial,"Helvetica, Neue";
+    color: #926239;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url(../images/beachshowcase.jpg);
+    background-size: cover;
+    background-position:center ;
+    height: 100vh;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.header h1{
+    /* font-size: 50px; */
+    line-height: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 20px
+    ;
+}
+
+.header p{
+    font-size: 20px;
+}
+.header .a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border: #926239 solid;
+    border-left: 3px solid;
+    border-right: 4px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #000;
+}
+#content-one
+{
+    background-color: #926239;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#content-two
+{
+    background-color:#fff;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+#p-one{
+    flex: 1;
+    background-color: #926239;
+    color: #fff;
+    text-align:start;
+    padding: 20px;
+}
+#p-two{
+    flex: 1;
+    background-color:white;
+    color: #926239;
+    text-align:start;
+    padding: 20px;
+}
+#p-three{
+    flex: 1;
+    background-color:#926239;
+    color: white;
+    text-align:start;
+    padding: 20px;
+}
+
+#nav{
+    margin-bottom: 80px;
+    height: 40;
+    background-color:gold;
+    
+}
+#nav ul{
+    display: flex;
+    justify-content: start;
+    padding-top: 13px;
+    padding-left: 10px;
+
+}
+#nav li{
+    list-style: none;
+    /* float: left; */
+    padding-left: 30px;
+    /* background-color: #000; */
+}
+
+#nav a{
+    text-decoration: none;
+    color: blue;
+    
+   font-weight: bold;
+}
+.nav{
+text-decoration: blue;
+align-items: stretch;
+}

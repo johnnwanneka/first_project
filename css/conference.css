@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.header{
+    background-color: #293f50;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 50px 200px;
+}
+
+.header h1{
+    color: #fff;
+    float: left;
+    padding-right: 300px;
+}
+.header h2{
+    color: #648880;
+}
